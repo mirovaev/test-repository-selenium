@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
-public class test {
+public class lesson2 {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -20,13 +20,6 @@ public class test {
     }
 
     @Test
-    public void myTest() {
-        driver.get("http://google.com");
-        driver.findElement(By.name("q")).sendKeys("webdriver");
-        driver.findElement(By.name("btnG")).click();
-        wait.until(titleIs("webdriver - Поиск в Google"));
-    }
-
     public void lessonTwo() {
         driver.get("http://mirka.ddns.net/litecart/admin/login.php?redirect_url=%2Flitecart%2Fadmin%2F");
         driver.findElement(By.name("username")).sendKeys("admin");
