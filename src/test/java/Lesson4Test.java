@@ -3,13 +3,16 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 
 
-public class Lesson4Z7Test {
+public class Lesson4Test {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -818,6 +821,32 @@ public class Lesson4Z7Test {
 
     }
 
+    @Test
+    public void zadanie8() throws InterruptedException {
+
+        driver.get("http://mirka.ddns.net/litecart");
+
+        // XPath продукта
+        String productString = "//li[contains(@class, \"product\")]";
+
+        // XPath стикеров
+        String stickerString = ".//div[contains(@class, \"sticker\")]";
+
+        System.out.println("Начало теста **************************** ");
+
+
+        List<WebElement> webElementList = driver.findElements(By.xpath(productString));
+
+        System.out.println("Найдено: " + webElementList.size() + " товаров.");
+        int i = 0;
+        for (WebElement element : webElementList) {
+            List<WebElement> elementList = element.findElements(By.xpath(stickerString));
+            i++;
+            System.out.println("Найдено: " + elementList.size() + " стикер(а)(ов) у " + i + " товара.");
+            assertTrue(elementList.size() == 1);
+        }
+
+    }
 
 
     @After
