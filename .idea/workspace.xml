@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0987e31-91c5-4b50-8cfe-56b1fb223bca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Accaunt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lesson6Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-repository-selenium.iml" afterPath="$PROJECT_DIR$/test-repository-selenium.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson6Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson6Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,11 +56,11 @@
       <file leaf-file-name="Lesson6Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7380#7389#0" expanded="true" />
+                <element signature="e#9540#9549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/test/java/lesson5test1.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson5test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Accaunt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lesson6Test2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson6Test.java" />
       </list>
     </option>
@@ -206,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson6Test.zadanie11">
+  <component name="RunManager" selected="JUnit.Lesson6Test.zadanie12">
     <configuration name="Lesson6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="test-repository-selenium" />
@@ -235,6 +233,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lesson6Test" />
       <option name="METHOD_NAME" value="zadanie11" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Lesson6Test.zadanie12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="test-repository-selenium" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6Test" />
+      <option name="METHOD_NAME" value="zadanie12" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -468,40 +486,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="lesson5test.zadanie9b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="test-repository-selenium" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="lesson5test" />
-      <option name="METHOD_NAME" value="zadanie9b" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9b" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9_2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie10" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie11" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9_2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie10" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie11" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie12" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie11" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie10" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9_2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9b" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie12" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie11" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie10" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.lesson5test.zadanie9_2" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501857275756</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rel #6&#10;тест 6 задание 11">
+      <created>1503322522058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503322522059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -551,8 +556,8 @@
     <history-entry file="Lesson6Test_zadanie11 - 2017.08.21 at 16h 34m 47s.xml">
       <configuration name="Lesson6Test.zadanie11" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="lesson5test1_zadanie10 - 2017.08.04 at 17h 17m 10s.xml">
-      <configuration name="lesson5test1.zadanie10" configurationId="JUnit" />
+    <history-entry file="Lesson6Test_zadanie12 - 2017.08.21 at 17h 10m 37s.xml">
+      <configuration name="Lesson6Test.zadanie12" configurationId="JUnit" />
     </history-entry>
     <history-entry file="lesson5test1_zadanie10 - 2017.08.04 at 17h 18m 50s.xml">
       <configuration name="lesson5test1.zadanie10" configurationId="JUnit" />
@@ -592,7 +597,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -620,7 +625,8 @@
     <MESSAGE value="rel #4&#10;Кликаем по левой стороне в ЛК оператора" />
     <MESSAGE value="rel #4&#10;два теста по 4 уроку" />
     <MESSAGE value="rel #5&#10;тест 5 задание 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="rel #5&#10;тест 5 задание 10" />
+    <MESSAGE value="rel #6&#10;тест 6 задание 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="rel #6&#10;тест 6 задание 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,13 +864,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lesson6Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson6Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7380#7389#0" expanded="true" />
+            <element signature="e#9540#9549#0" expanded="true" />
           </folding>
         </state>
       </provider>

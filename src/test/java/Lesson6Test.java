@@ -6,8 +6,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.AdminPages.AdminPage;
+import pages.AdminPages.CatalogPages.CatalogAdminPage;
+import pages.AdminPages.CatalogPages.addCatalogPages.addNewProductPage.GeneralAPage;
+import pages.AdminPages.CatalogPages.addCatalogPages.addNewProductPage.InformationAPage;
+import pages.AdminPages.CatalogPages.addCatalogPages.addNewProductPage.PricesAPage;
+import pages.AdminPages.LoginPage;
 import java.util.ArrayList;
 import java.util.List;
+import static org.junit.Assert.assertTrue;
 
 
 public class Lesson6Test {
@@ -42,7 +49,45 @@ public class Lesson6Test {
         logOutCustomer();
     }
 
-       @After
+    @Test
+    public void zadanie12() throws InterruptedException {
+
+        // Переходим на страницу входа в админку
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.Start();
+
+        // Входим в админку
+        AdminPage adminPage = loginPage.avtoLoginCorrect();
+        // Входим в раздел редактирования каталога
+        //CatalogAdminPage catalogAdminPage = adminPage.sidebar().bCatalog().click();
+        CatalogAdminPage catalogAdminPage = adminPage.sidebar().bClickCatalog();
+        // находим уникальное имя для продукции
+        String nameOfNewProduct = catalogAdminPage.uniqueName();
+        GeneralAPage generalAPage = catalogAdminPage.bClickAddNewProduct();
+        generalAPage.generalTab().txtName().sendKeys(nameOfNewProduct);
+        generalAPage.generalTab().txtSendKeysCode("code101");
+        generalAPage.generalTab().txtQuantity().sendKeys("102");
+        generalAPage.generalTab().txtUploadImages().sendKeys(System.getProperty("user.dir") + "\\src\\1.bmp");
+        InformationAPage informationAPage = generalAPage.generalTab().bClickOpenTabInformation();
+        informationAPage.informationTab().txtDescription().sendKeys("103");
+        PricesAPage pricesAPage = informationAPage.informationTab().bClickOpenTabPrices();
+
+        pricesAPage.pricesTab().txtPriceUSD().sendKeys("104");
+        pricesAPage.pricesTab().txtPriceInclTaxUSD().sendKeys("105");
+        catalogAdminPage = pricesAPage.bClickSave();
+        assertTrue(catalogAdminPage.products().productIsPresent(nameOfNewProduct));
+        catalogAdminPage.products().selectProduct(nameOfNewProduct);
+        catalogAdminPage.bClickEnableProduct();
+
+        // Добавляем видимость элементу
+
+        Thread.sleep(1000);
+
+
+    }
+
+
+    @After
     public void stop() {
         driver.quit();
         driver = null;
