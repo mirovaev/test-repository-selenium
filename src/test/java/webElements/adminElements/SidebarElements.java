@@ -3,12 +3,11 @@ package webElements.adminElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.adminPages.catalogPages.CatalogAdminPage;
+import pages.adminPages.countriesPages.CountriesPage;
 import webElements.AbstrElements;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by tester on 21.08.2017.
- */
+
 public class SidebarElements extends AbstrElements{
 
     public SidebarElements (WebDriver driver) {
@@ -21,7 +20,7 @@ public class SidebarElements extends AbstrElements{
     // XPath бокового меню
     String menuString = "//div[contains(@id, \"box-apps-menu-wrapper\")]";
 
-    // XPath Appearence
+    // XPath Catalog
     protected String bCatalogXpath = menuString + "//span[text()=\"Catalog\"]";
 
     public WebElement bCatalog(){
@@ -33,5 +32,19 @@ public class SidebarElements extends AbstrElements{
         return new CatalogAdminPage(driver);
     }
 
+
+
+
+    // XPath Countries
+    protected String bCountriesXpath = menuString + "//span[text()=\"Countries\"]";
+
+    public WebElement bCountries(){
+        return driver.findElements(By.xpath(bCountriesXpath)).get(0);
+    }
+    // Нажимаем на кнопку General
+    public CountriesPage bClickCountries(){
+        driver.findElements(By.xpath(bCountriesXpath)).get(0).click();
+        return new CountriesPage(driver);
+    }
 
 }
