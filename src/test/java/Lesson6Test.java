@@ -13,16 +13,12 @@ import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.Informati
 import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.PricesAPage;
 import pages.adminPages.LoginPage;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 
 
-/**
- * Created by tester on 27.07.2017.
- */
 public class Lesson6Test {
     private WebDriver driver;
     private WebDriverWait wait;

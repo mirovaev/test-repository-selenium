@@ -15,10 +15,6 @@ import pages.adminPages.catalogPages.editProductPages.editProductPage.GeneralAPa
 import java.io.File;
 import java.io.IOException;
 
-
-/**
- * Created by tester on 27.07.2017.
- */
 public class Lesson10Test {
     private EventFiringWebDriver driver;
     private WebDriverWait wait;

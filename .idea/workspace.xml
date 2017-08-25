@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0987e31-91c5-4b50-8cfe-56b1fb223bca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lesson10Test.java" />
+    <list default="true" id="f0987e31-91c5-4b50-8cfe-56b1fb223bca" name="Default" comment="rel #10&#10;тест 10 задание 17">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/1.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CatalogLogic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lesson11Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/editProductPages/AbstrEditProductAPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/editProductPages/editProductPage/GeneralAPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/editProductPages/editProductPage/InformationAPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/editProductPages/editProductPage/PricesAPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/countriesPages/CountriesPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/countriesPages/EditCountryPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/countriesElements/FormCountriesElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/countriesElements/FormEditCountryElements.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson4Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson4Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Accaunt.java" afterPath="$PROJECT_DIR$/src/test/java/Accaunt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson10Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson10Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson6Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson6Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson7Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson7Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/lesson2.java" afterPath="$PROJECT_DIR$/src/test/java/lesson2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/lesson5test.java" afterPath="$PROJECT_DIR$/src/test/java/lesson5test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/AbstrPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/AbstrPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/AbstrAdminPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/AbstrAdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/AdminPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/AdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/AbstrCatalogAdminPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/AbstrCatalogAdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/CatalogAdminPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/CatalogAdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/AbstrAddNewProductAPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/AbstrAddNewProductAPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/GeneralAPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/GeneralAPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/InformationAPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/InformationAPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/PricesAPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/adminPages/catalogPages/addCatalogPages/addNewProductPage/PricesAPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/userPages/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/userPages/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test.java" afterPath="$PROJECT_DIR$/src/test/java/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/AbstrElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/AbstrElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/SidebarElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/SidebarElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/ZZZZZZZZ.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/ZZZZZZZZ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/ProductsCatalogElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/ProductsCatalogElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/AbstrAddNewProductElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/AbstrAddNewProductElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/GeneralElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/GeneralElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/InformationElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/InformationElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/PricesElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/contentElements/catalogСontentElements/addCatalogElements/addNewProductElements/PricesElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/adminElements/sidebarElements/CatalogSidebarElements.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/adminElements/sidebarElements/CatalogSidebarElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/userElements/DivMostPopular.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/userElements/DivMostPopular.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/userElements/HeaderWrapper.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/userElements/HeaderWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lesson8Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lesson8Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/userPages/CheckoutPage.java" afterPath="$PROJECT_DIR$/src/test/java/pages/userPages/CheckoutPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/webElements/userElements/CartForm.java" afterPath="$PROJECT_DIR$/src/test/java/webElements/userElements/CartForm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,16 +52,16 @@
       <file leaf-file-name="Lesson6Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="391">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1503476823137" expanded="true" signature="8626:10614" ph="{...}" />
-                <marker date="1503476823137" expanded="true" signature="8636:8675" ph="//..." />
-                <marker date="1503476823137" expanded="true" signature="8978:9060" ph="//..." />
-                <marker date="1503476823137" expanded="true" signature="9584:9593" ph="&lt;~&gt;" />
-                <marker date="1503476823137" expanded="true" signature="9915:9990" ph="//..." />
-                <marker date="1503476823137" expanded="true" signature="10146:10239" ph="//..." />
+                <marker date="1503646278660" expanded="true" signature="8581:10569" ph="{...}" />
+                <marker date="1503646278660" expanded="true" signature="8591:8630" ph="//..." />
+                <marker date="1503646278660" expanded="true" signature="8933:9015" ph="//..." />
+                <marker date="1503646278660" expanded="true" signature="9539:9548" ph="&lt;~&gt;" />
+                <marker date="1503646278660" expanded="true" signature="9870:9945" ph="//..." />
+                <marker date="1503646278660" expanded="true" signature="10101:10194" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -80,9 +70,11 @@
       <file leaf-file-name="Lesson7Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson7Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="313">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding>
+                <marker date="1503648845587" expanded="true" signature="3087:3104" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,17 +83,32 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson8Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="60" column="76" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+              <caret line="57" column="76" lean-forward="false" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+              <folding>
+                <marker date="1503646278801" expanded="true" signature="778:869" ph="{...}" />
+                <marker date="1503646278801" expanded="true" signature="906:959" ph="{...}" />
+                <marker date="1503646278801" expanded="true" signature="1028:2953" ph="{...}" />
+                <marker date="1503646278801" expanded="true" signature="1257:1354" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lesson10Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lesson10Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lesson10Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Lesson10Test.java">
+      <file leaf-file-name="Lesson11Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lesson11Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -207,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Lesson6Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson7Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/webElements/adminElements/SidebarElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lesson10Test.java" />
       </list>
     </option>
   </component>
@@ -270,23 +278,6 @@
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-repository-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webElements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-repository-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webElements" type="462c0819:PsiDirectoryNode" />
-              <item name="adminElements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-repository-selenium" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -316,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson10Test.zadanie17">
+  <component name="RunManager" selected="JUnit.Lesson11Test.zadanie19">
     <configuration name="Lesson10Test.zadanie17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="test-repository-selenium" />
@@ -325,6 +316,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lesson10Test" />
       <option name="METHOD_NAME" value="zadanie17" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Lesson11Test.zadanie19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="test-repository-selenium" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lesson11Test" />
+      <option name="METHOD_NAME" value="zadanie19" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -346,26 +357,6 @@
       <option name="MAIN_CLASS_NAME" value="Lesson6Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Lesson6Test.zadanie12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="test-repository-selenium" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson6Test" />
-      <option name="METHOD_NAME" value="zadanie12" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -600,18 +591,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie12" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson7Test.zadanie13" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson8Test.zadanie14" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson10Test.zadanie17" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson7Test.zadanie13" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson8Test.zadanie14" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson10Test.zadanie17" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson11Test.zadanie19" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Lesson10Test.zadanie17" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson8Test.zadanie14" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson7Test.zadanie13" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson6Test.zadanie12" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Lesson11Test.zadanie19" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Lesson10Test.zadanie17" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Lesson8Test.zadanie14" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Lesson7Test.zadanie13" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Lesson6Test" />
       </list>
     </recent_temporary>
   </component>
@@ -669,12 +660,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503564215222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rel #10&#10;тест 10 задание 17">
+      <created>1503642213089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503642213089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Lesson10Test_zadanie17 - 2017.08.25 at 09h 22m 50s.xml">
       <configuration name="Lesson10Test.zadanie17" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson11Test_zadanie19 - 2017.08.25 at 11h 17m 57s.xml">
+      <configuration name="Lesson11Test.zadanie19" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Lesson7Test_zadanie13 - 2017.08.23 at 17h 41m 32s.xml">
       <configuration name="Lesson7Test.zadanie13" configurationId="JUnit" />
@@ -690,9 +691,6 @@
     </history-entry>
     <history-entry file="Lesson8Test_zadanie14 - 2017.08.24 at 11h 42m 52s.xml">
       <configuration name="Lesson8Test.zadanie14" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson5test1_zadanie10 - 2017.08.04 at 17h 24m 30s.xml">
-      <configuration name="lesson5test1.zadanie10" configurationId="JUnit" />
     </history-entry>
     <history-entry file="lesson5test1_zadanie10 - 2017.08.04 at 17h 30m 02s.xml">
       <configuration name="lesson5test1.zadanie10" configurationId="JUnit" />
@@ -754,7 +752,8 @@
     <MESSAGE value="rel #6&#10;тест 6 задание 11" />
     <MESSAGE value="rel #7&#10;тест 7 задание 13" />
     <MESSAGE value="rel #8&#10;тест 8 задание 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="rel #8&#10;тест 8 задание 14" />
+    <MESSAGE value="rel #10&#10;тест 10 задание 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="rel #10&#10;тест 10 задание 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,13 +764,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-repository-selenium.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -831,12 +823,12 @@
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1503476823137" expanded="true" signature="8626:10614" ph="{...}" />
-            <marker date="1503476823137" expanded="true" signature="8636:8675" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="8978:9060" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="9584:9593" ph="&lt;~&gt;" />
-            <marker date="1503476823137" expanded="true" signature="9915:9990" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="10146:10239" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="8581:10569" ph="{...}" />
+            <marker date="1503646278660" expanded="true" signature="8591:8630" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="8933:9015" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="9539:9548" ph="&lt;~&gt;" />
+            <marker date="1503646278660" expanded="true" signature="9870:9945" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="10101:10194" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1095,25 +1087,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson6Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="391">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1503476823137" expanded="true" signature="8626:10614" ph="{...}" />
-            <marker date="1503476823137" expanded="true" signature="8636:8675" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="8978:9060" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="9584:9593" ph="&lt;~&gt;" />
-            <marker date="1503476823137" expanded="true" signature="9915:9990" ph="//..." />
-            <marker date="1503476823137" expanded="true" signature="10146:10239" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="8581:10569" ph="{...}" />
+            <marker date="1503646278660" expanded="true" signature="8591:8630" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="8933:9015" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="9539:9548" ph="&lt;~&gt;" />
+            <marker date="1503646278660" expanded="true" signature="9870:9945" ph="//..." />
+            <marker date="1503646278660" expanded="true" signature="10101:10194" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson7Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <marker date="1503648845587" expanded="true" signature="3087:3104" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,8 +1153,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson8Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="60" column="76" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
-          <folding />
+          <caret line="57" column="76" lean-forward="false" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+          <folding>
+            <marker date="1503646278801" expanded="true" signature="778:869" ph="{...}" />
+            <marker date="1503646278801" expanded="true" signature="906:959" ph="{...}" />
+            <marker date="1503646278801" expanded="true" signature="1028:2953" ph="{...}" />
+            <marker date="1503646278801" expanded="true" signature="1257:1354" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,7 +1174,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson10Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lesson11Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>

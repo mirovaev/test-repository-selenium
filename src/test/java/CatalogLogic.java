@@ -1,47 +1,29 @@
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.userPages.*;
+import pages.userPages.CheckoutPage;
+import pages.userPages.MainPage;
+import pages.userPages.ProductPage;
 
+public class CatalogLogic {
 
-import static org.junit.Assert.assertTrue;
-
-public class Lesson7Test {
-    private WebDriver driver;
-    private WebDriverWait wait;
-
-    @Before
-    public void start() {
-        driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, 10);
-
+    public CatalogLogic(WebDriver driver){
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, 5);
     }
 
+    WebDriver driver;
+    WebDriverWait wait;
 
-    @After
-    public void stop() {
-        driver.quit();
-        driver = null;
-    }
-
-
-    @Test
-    public void zadanie13() throws InterruptedException {
-
-        MainPage mainPage = new MainPage(driver);
-        // Заходим на главную страницу
-        mainPage.Start();
+    public int addToCartRandomProduct(int number) {
 
         int countProducts = 0;
 
-        // Добавляем к корзину продукцию
-        for (int i = 0; i < 4; i++) {
+        // Добавляем в корзину продукцию
+        for (int i = 0; i < number; i++) {
 
+            MainPage mainPage = new MainPage(driver);
             // Запоминаем текущее количество элементов в корзине
             countProducts = Integer.parseInt(mainPage.headerWrapper().gettxtCart());
 
@@ -63,19 +45,26 @@ public class Lesson7Test {
             // Возвращаемся на предыдущую страницу
             productPage.bPrevPageClick();
         }
+        return countProducts;
+    }
 
-        int countProductsNew = Integer.parseInt(mainPage.headerWrapper().gettxtCart());
+
+    public void deleteFromCart(int countProductsToLeft){
 
         // Переходим в корзину
-        CheckoutPage checkoutPage = mainPage.headerWrapper().bClickOpenСheckout();
+        driver.get("http://mirka.ddns.net/litecart/index.php/en/checkout");
+
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
 
         // Ждем пока не загрузиться страница корзины
-        // Пока не будет видно страницы удалить продукцию
-        wait.until(ExpectedConditions.visibilityOf(checkoutPage.cartForm().bRemoveCartItem()));
+        // Пока не будет видно элемента //span[text()="Customer Service"]
+        wait.until(ExpectedConditions.visibilityOf(checkoutPage.cartForm().webElementsCustomerService()));
 
+        // находим сколько товара в корзине
+        int countProducts = checkoutPage.cartForm().countProductsInCart();
 
         // Удаляем из корзины
-        while (checkoutPage.cartForm().isAnyProductInCart()){
+        while (checkoutPage.cartForm().isAnyProductInCart() && countProducts > countProductsToLeft){
 
             // Удаляем одину продукцию
             checkoutPage.cartForm().bClickRemoveCartItem();
@@ -90,18 +79,10 @@ public class Lesson7Test {
             wait.until(ExpectedConditions.numberOfElementsToBe(
                     By.xpath(checkoutPage.cartForm().getWebElementsProductsXpath()),
                     countProducts));
+
+            // находим сколько товара в корзине
+            //countProducts = checkoutPage.cartForm().countProductsInCart();
         }
-
-
-
     }
-
-
-
-
-
-
-
-
 
 }

@@ -33,26 +33,35 @@ public class CartForm extends AbstrElements{
     }
 
 
+    //li[@class="shortcut"]
+
     // XPath элементов в корзине
-    protected String webElementsProductsXpath = "//li[@class=\"shortcut\"]";
+    protected static String webElementsProductsXpath = "//table[@class=\"dataTable rounded-corners\"]//tr/td[@class=\"item\"]";
+    public static String getWebElementsProductsXpath() {
+        return webElementsProductsXpath;
+    }
     // WebElements продукции в корзине
     public List<WebElement> webElementsProducts(){
         return driver.findElements(By.xpath(webElementsProductsXpath));
     }
     // Возвращаем количество продукции в корзине
     public int countProductsInCart(){
-        int count = 0;
-        if (driver.findElements(By.xpath(webElementsProductsXpath)).size() > 0 ){
-            count = driver.findElements(By.xpath(webElementsProductsXpath)).size();
-        } else {
-            if (isAnyProductInCart()){
-                count = 1;
-            } else {
-                count = 0;
-            }
-        }
-        return count;
+        return driver.findElements(By.xpath(webElementsProductsXpath)).size();
     }
+
+
+    // XPath элементов в корзине
+    protected static String webElementsCustomerServiceXpath = "//span[text()=\"Customer Service\"]";
+    public static String getWebElementsCustomerServiceXpath() {
+        return webElementsCustomerServiceXpath;
+    }
+    // WebElements продукции в корзине
+    public WebElement webElementsCustomerService(){
+        return driver.findElements(By.xpath(webElementsCustomerServiceXpath)).get(0);
+    }
+
+
+
 
 
 }

@@ -18,9 +18,6 @@ import java.util.List;
 import java.util.Set;
 
 
-/**
- * Created by tester on 27.07.2017.
- */
 public class Lesson8Test {
     private WebDriver driver;
     private WebDriverWait wait;
