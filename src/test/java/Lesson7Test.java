@@ -83,6 +83,20 @@ public class Lesson7Test {
 
         Thread.sleep(2000);
 
+
+        Thread.sleep(2000);
+
+
+
+
     }
+
+
+
+
+
+
+
+
 
 }

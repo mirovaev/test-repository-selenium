@@ -4,9 +4,6 @@ import org.openqa.selenium.WebDriver;
 import pages.adminPages.catalogPages.addCatalogPages.AbstrAddNewProductAPage;
 import webElements.adminElements.contentElements.catalogСontentElements.addCatalogElements.addNewProductElements.GeneralElements;
 
-/**
- * Created by tester on 17.08.2017.
- */
 public class GeneralAPage extends AbstrAddNewProductAPage {
 
     public GeneralAPage(WebDriver driver) {
@@ -14,7 +11,7 @@ public class GeneralAPage extends AbstrAddNewProductAPage {
     }
 
 
-    // Добавляем боковое сабменю
+    // Добавляем вкладку General
     protected GeneralElements generalElements;
 
     public GeneralElements generalTab() {

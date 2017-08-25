@@ -5,9 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.AbstrPage;
 
-/**
- * Created by tester on 17.08.2017.
- */
 public class LoginPage extends AbstrPage {
 
     public LoginPage(WebDriver driver) {

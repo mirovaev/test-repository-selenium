@@ -21,13 +21,15 @@ public class AbstrPage {
     // Переход назад по истории посещенных страниц
     public AbstrPage bPrevPageClick() {
         this.driver.navigate().back();
-        return this;
+        return new AbstrPage(driver);
     }
-
 
     // Стартуем
     public void Start() {
         driver.get(pageURL);
     }
 
+    public String Title() {
+        return driver.getTitle();
+    }
 }

@@ -4,9 +4,6 @@ import org.openqa.selenium.WebDriver;
 import pages.adminPages.catalogPages.addCatalogPages.AbstrAddNewProductAPage;
 import webElements.adminElements.contentElements.catalogСontentElements.addCatalogElements.addNewProductElements.PricesElements;
 
-/**
- * Created by tester on 17.08.2017.
- */
 public class PricesAPage extends AbstrAddNewProductAPage {
 
     public PricesAPage(WebDriver driver) {
@@ -14,7 +11,7 @@ public class PricesAPage extends AbstrAddNewProductAPage {
     }
 
 
-    // Добавляем боковое сабменю
+    // Добавляем вкладку Prices
     protected PricesElements pricesElements;
 
     public PricesElements pricesTab() {

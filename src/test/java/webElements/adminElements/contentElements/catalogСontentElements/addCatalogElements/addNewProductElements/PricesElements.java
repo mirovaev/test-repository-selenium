@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import webElements.adminElements.contentElements.catalogСontentElements.addCatalogElements.AbstrAddNewProductElements;
 
-/**
- * Created by tester on 21.08.2017.
- */
+
 public class PricesElements extends AbstrAddNewProductElements {
 
     public PricesElements(WebDriver driver) {

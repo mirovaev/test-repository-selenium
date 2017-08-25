@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import pages.userPages.*;
 import webElements.AbstrElements;
 
-/**
- * Created by tester on 23.08.2017.
- */
+
 public class HeaderWrapper extends AbstrElements{
 
     public HeaderWrapper(WebDriver driver) {

@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import pages.adminPages.catalogPages.addCatalogPages.AbstrAddNewProductAPage;
 import webElements.adminElements.contentElements.catalogСontentElements.addCatalogElements.addNewProductElements.InformationElements;
 
-/**
- * Created by tester on 17.08.2017.
- */
+
 public class InformationAPage extends AbstrAddNewProductAPage {
 
     public InformationAPage(WebDriver driver) {
@@ -14,7 +12,7 @@ public class InformationAPage extends AbstrAddNewProductAPage {
     }
 
 
-    // Добавляем боковое сабменю
+    // Добавляем вкладку Information
     protected InformationElements informationElements;
 
     public InformationElements informationTab() {

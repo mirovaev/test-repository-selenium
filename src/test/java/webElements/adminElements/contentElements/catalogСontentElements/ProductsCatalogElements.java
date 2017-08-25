@@ -3,14 +3,12 @@ package webElements.adminElements.contentElements.catalogСontentElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pages.adminPages.catalogPages.editProductPages.editProductPage.GeneralAPage;
 import webElements.AbstrElements;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by tester on 21.08.2017.
- */
 public class ProductsCatalogElements extends AbstrElements {
 
     public ProductsCatalogElements(WebDriver driver) {
@@ -34,8 +32,6 @@ public class ProductsCatalogElements extends AbstrElements {
         }
         return isOk;
     }
-
-
     public List<String> getProductsTexts(){
         List<String> stringList = new ArrayList<String>();
 
@@ -44,8 +40,9 @@ public class ProductsCatalogElements extends AbstrElements {
         }
         return stringList;
     }
-
-
+    public int getCountOfProduct() {
+        return driver.findElements(By.xpath(txtProductsXpath)).size();
+    }
     String selectProductXpath = "(//table[@class=\"dataTable\"]//tr[contains(@class, \"row\")]/td[1])";
     public void selectProduct(String nameOfProduct){
         boolean isMatches = false;
@@ -66,5 +63,36 @@ public class ProductsCatalogElements extends AbstrElements {
             }
         }
     }
+
+    // Xpath нахождения закрытой папки
+    String webElementClosedFolderXpath = "(//td[3]/i[@class=\"fa fa-folder\"]/../a)";
+    // Количество закрытых папок
+    public int countOfClosedFolder() {
+        return driver.findElements(By.xpath(webElementClosedFolderXpath)).size();
+    }
+    // Раскрываем закрытую папку
+    public void bOpenClickClosedFolder(int numberOfFolder){
+        // Находим номер элемента в таблице
+        String str = webElementClosedFolderXpath + "[" + (numberOfFolder + 1) + "]";
+        driver.findElements(By.xpath(str)).get(0).click();
+    }
+
+    // Xpath нахождения продукции
+    String webElementProductXpath = "(//table[@class=\"dataTable\"]//tr[contains(@class, \"row\")]/td[3]/a)";
+    // Количество продукции
+    public int countOfProduct() {
+        return driver.findElements(By.xpath(webElementProductXpath)).size();
+    }
+    // Раскрываем продукцию
+    public GeneralAPage bOpenClickProduct(int numberOfFolder){
+        // Находим номер элемента в таблице
+        String str = webElementProductXpath + "[" + (numberOfFolder + 1) + "]";
+        driver.findElements(By.xpath(str)).get(0).click();
+        return new GeneralAPage(driver);
+    }
+
+
+
+
 
 }

@@ -43,7 +43,8 @@ public class SidebarElements extends AbstrElements{
     }
     // Нажимаем на кнопку General
     public CountriesPage bClickCountries(){
-        driver.findElements(By.xpath(bCountriesXpath)).get(0).click();
+        driver.findElement(By.xpath(bCountriesXpath)).click();
+        //driver.findElements(By.xpath(bCountriesXpath)).get(0).click();
         return new CountriesPage(driver);
     }
 

@@ -8,9 +8,7 @@ import webElements.adminElements.contentElements.catalogСontentElements.Product
 
 import java.util.List;
 
-/**
- * Created by tester on 17.08.2017.
- */
+
 public class CatalogAdminPage extends AbstrCatalogAdminPage {
 
     public CatalogAdminPage(WebDriver driver) {
@@ -95,6 +93,6 @@ public class CatalogAdminPage extends AbstrCatalogAdminPage {
 
 
 
-    //ProductsCatalogElements
+    //FormCountriesElements
 
 }

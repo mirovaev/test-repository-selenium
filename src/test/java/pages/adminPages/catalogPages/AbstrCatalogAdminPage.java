@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import pages.adminPages.AbstrAdminPage;
 import webElements.adminElements.sidebarElements.CatalogSidebarElements;
 
-/**
- * Created by tester on 17.08.2017.
- */
+
 public class AbstrCatalogAdminPage extends AbstrAdminPage {
 
     public AbstrCatalogAdminPage(WebDriver driver) {

@@ -8,9 +8,7 @@ import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.Informati
 import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.PricesAPage;
 import webElements.AbstrElements;
 
-/**
- * Created by tester on 21.08.2017.
- */
+
 public class AbstrAddNewProductElements extends AbstrElements{
 
     public AbstrAddNewProductElements(WebDriver driver) {

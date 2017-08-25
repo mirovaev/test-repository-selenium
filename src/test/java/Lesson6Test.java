@@ -6,17 +6,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.adminPages.*;
+import pages.adminPages.AdminPage;
 import pages.adminPages.catalogPages.CatalogAdminPage;
 import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.GeneralAPage;
 import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.InformationAPage;
 import pages.adminPages.catalogPages.addCatalogPages.addNewProductPage.PricesAPage;
 import pages.adminPages.LoginPage;
+
+
 import java.util.ArrayList;
 import java.util.List;
+
 import static org.junit.Assert.assertTrue;
 
 
+/**
+ * Created by tester on 27.07.2017.
+ */
 public class Lesson6Test {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -119,11 +125,7 @@ public class Lesson6Test {
         driver.findElements(By.xpath(logOutXpath)).get(0).click();
     }
 
-
     public Accaunt createAccaunt (List<Accaunt> accauntList) throws InterruptedException {
-
-
-
         String emailNew = "";
         int number = -1;
 
@@ -236,6 +238,7 @@ public class Lesson6Test {
 
 
     }
+
 
     public List<Accaunt> readAccaunts() {
         // логинимся в админку

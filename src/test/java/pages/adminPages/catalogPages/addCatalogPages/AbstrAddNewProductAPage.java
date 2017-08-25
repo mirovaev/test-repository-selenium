@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import pages.adminPages.catalogPages.AbstrCatalogAdminPage;
 import pages.adminPages.catalogPages.CatalogAdminPage;
 
-/**
- * Created by tester on 17.08.2017.
- */
+
 public class AbstrAddNewProductAPage extends AbstrCatalogAdminPage {
 
     public AbstrAddNewProductAPage(WebDriver driver) {

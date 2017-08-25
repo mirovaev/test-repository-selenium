@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import pages.AbstrPage;
 import webElements.adminElements.SidebarElements;
 
-/**
- * Created by tester on 17.08.2017.
- */
+
 public class AbstrAdminPage extends AbstrPage {
 
     public AbstrAdminPage(WebDriver driver) {
